@@ -1,0 +1,29 @@
+{
+  "name": "@frontsail/alpine-argh",
+  "version": "1.0.0",
+  "author": "Muris Ceman <muris@frontsail.com>",
+  "license": "MIT",
+  "homepage": "https://www.frontsail.com/docs/alpine-argh",
+  "description": "An Alpine plugin for cross-binding component properties.",
+  "main": "dist/alpine-argh.cjs.js",
+  "module": "dist/alpine-argh.esm.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "node ./build.js",
+    "dev": "node ./build.js --watch",
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontsail/alpine-argh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frontsail/alpine-argh/issues"
+  },
+  "devDependencies": {
+    "@frontsail/build": "^1.0.0",
+    "cypress": "^9.5.1"
+  }
+}

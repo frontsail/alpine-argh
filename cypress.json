@@ -1,0 +1,12 @@
+{
+  "ignoreTestFiles": "*.html",
+  "screenshotOnRunFailure": false,
+  "video": false,
+  "fixturesFolder": "tests/fixtures",
+  "downloadsFolder": "tests/downloads",
+  "integrationFolder": "tests/integration",
+  "pluginsFile": "tests/plugins/index.cjs",
+  "screenshotsFolder": "tests/screenshots",
+  "videosFolder": "tests/videos",
+  "supportFile": "tests/support/index.js"
+}
